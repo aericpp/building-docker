@@ -1,0 +1,8 @@
+name: 'Building Commands'
+description: 'Building x86_64 programs commands'
+inputs:
+  depend_list:
+    description: 'compile dependency packages'
+    default: "build-essential"
+  script_file:
+    description: 'compile script'
