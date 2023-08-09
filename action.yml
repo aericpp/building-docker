@@ -6,3 +6,9 @@ inputs:
     default: "build-essential"
   script_file:
     description: 'compile script'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'fast-forward'
+  color: 'gray-dark'
