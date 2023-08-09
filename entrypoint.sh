@@ -5,6 +5,7 @@ export GITHUB="true"
 
 echo "* $*"
 echo "@ $@"
+echo "@ $?"
 echo "depend_list $depend_list"
 echo "script_file $script_file"
 
