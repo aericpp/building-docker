@@ -8,7 +8,8 @@ echo "INPUT_SCRIPT_FILE $INPUT_SCRIPT_FILE"
 
 echo "* $*"
 echo "@ $@"
-echo "@ $?"
+echo "# $#"
+echo "？ $?"
 echo "depend_list $depend_list"
 echo "script_file $script_file"
 
