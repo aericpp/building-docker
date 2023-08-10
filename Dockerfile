@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM debian:11-slim
 
 # Label
 LABEL "com.github.actions.name"="Docker image for compiling with debain"
